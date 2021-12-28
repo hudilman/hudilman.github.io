@@ -18,7 +18,8 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  /* background: #040404 url("../img/bg.jpg") top right no-repeat; */
+  background: #040404;
   background-size: cover;
   left: 0;
   right: 0;
@@ -450,7 +451,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.08);
+  background: #fff;
   transition: ease-in-out 0.3s;
 }
 .interests .icon-box i {
