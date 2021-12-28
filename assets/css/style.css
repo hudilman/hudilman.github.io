@@ -18,8 +18,8 @@ body {
 body::before {
   content: "";
   position: fixed;
-  /* background: #040404 url("../img/bg.jpg") top right no-repeat; */
-  background: #040404;
+  background: #040404 url("../img/bg-noimage.jpg") top right no-repeat;
+  /* background: #040404; */
   background-size: cover;
   left: 0;
   right: 0;
