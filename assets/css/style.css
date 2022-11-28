@@ -415,6 +415,11 @@ section .container {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+/* .card{
+  width: 500px !important;
+  height: 300px !important;
+} */
+
 .skills .progress {
   height: 60px;
   display: block;
@@ -469,6 +474,11 @@ section .container {
 }
 .interests .icon-box:hover {
   background: rgba(255, 255, 255, 0.12);
+}
+
+.interests .icon-box img {
+  width: 250px !important;
+  height: 130px !important;
 }
 
 /*--------------------------------------------------------------
@@ -798,6 +808,13 @@ section .container {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
+}
+
+.portfolio .portfolio-wrap .img-fluid {
+
+  width: 404px !important;
+  height: 194px !important;
+
 }
 
 /*--------------------------------------------------------------
